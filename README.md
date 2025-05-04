@@ -11,6 +11,10 @@
 - 🔁 **Key Combos** – Chain multiple key presses into a single trigger.
 - 🖥️ **Change Screen Resolution** – Instantly switch between predefined resolutions.
 
+- ### 📦 Download
+
+[Download for Windows (.exe)](https://github.com/seu-usuario/seu-repo/releases/download/v0.1.0/shortcut_0.1.0_x64-setup.exe)
+
 ---
 
 ## 🚀 Getting Started
