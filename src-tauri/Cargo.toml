@@ -1,0 +1,49 @@
+[package]
+name = "shortnuts"
+version = "0.1.0"
+description = "A shortcut App"
+authors = ["lynndef"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+# The `_lib` suffix may seem redundant but it is necessary
+# to make the lib name unique and wouldn't conflict with the bin name.
+# This seems to be only an issue on Windows, see https://github.com/rust-lang/cargo/issues/8519
+name = "shortcutting_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2.0.0", features = [ "tray-icon", "unstable"] }
+tauri-plugin-positioner = { version = "2.0.0", features = ["tray-icon"] }
+
+window_vibrancy = { path = "../vibrancy-plugin/tauri-plugin-vibrancy" }
+
+winapi = { version = "0.3", features = ["winuser", "wingdi", "winerror"] }
+windows-sys = { version = "0.52.0", features = [
+    "Win32_Graphics_Gdi",
+    "Win32_System_SystemServices",
+    "Win32_Foundation",
+    "Win32_System_Console",
+    "Win32_UI_Shell",
+      "Win32_System_Diagnostics",
+       "Win32_System_Diagnostics_Debug"
+] }
+
+tauri-plugin-opener = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+device_query = "3.0.1"
+
+enigo = "0.1"
+rfd = "0.14"
+tauri-plugin-dialog = "2.2.1"
+tauri-plugin-store = { version = "2.0.0", features = [] }
+global-hotkey = "0.4.1"
+
+[target.'cfg(not(any(target_os = "android", target_os = "ios")))'.dependencies]
+tauri-plugin-positioner = "2"

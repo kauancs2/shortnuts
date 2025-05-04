@@ -1,0 +1,36 @@
+# Node.js (React)
+node_modules/
+dist/
+build/
+.env
+.env.*
+
+# Vite / CRA / frontend build output
+.vite/
+*.log
+*.tsbuildinfo
+
+# Rust / Cargo (Tauri backend)
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Tauri build artifacts
+/src-tauri/target/
+src-tauri/target/
+src-tauri/.cargo-lock.json
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+
+# Windows
+*.log
+*.tmp
+
+# Editor/IDE
+.idea/
+.vscode/
+*.code-workspace

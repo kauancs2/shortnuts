@@ -1,0 +1,26 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": ["main", "janela-secundaria"],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "positioner:default",
+    "core:webview:allow-create-webview-window",
+    "opener:allow-open-path",
+    "dialog:allow-ask",
+    "dialog:allow-confirm",
+    "dialog:allow-open",
+    "dialog:deny-ask",
+    "dialog:allow-message",
+    "dialog:allow-save",
+    "dialog:default",
+    "store:allow-load",
+    "store:allow-save",
+    "store:allow-get",
+    "store:allow-set",
+    "store:default"
+    
+  ]
+}
