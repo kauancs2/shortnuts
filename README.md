@@ -26,7 +26,7 @@
 
 > Download the latest Windows installer here:
 
-**[⬇️ Download Shortcut v0.1.0 (.exe)](https://github.com/kauancs2/shortnuts/releases/tag/0.1.0)**
+**[⬇️ Download Shortnuts v0.1.0 (.exe)](https://github.com/kauancs2/shortnuts/releases/tag/0.1.0)**
 
 ---
 
