@@ -11,10 +11,6 @@
 - 🔁 **Key Combos** – Chain multiple key presses into a single trigger.
 - 🖥️ **Change Screen Resolution** – Instantly switch between predefined resolutions.
 
-- ### 📦 Download
-
-[Download for Windows (.exe)](https://github.com/seu-usuario/seu-repo/releases/download/v0.1.0/shortcut_0.1.0_x64-setup.exe)
-
 ---
 
 ## 🚀 Getting Started
@@ -25,3 +21,40 @@
 - [Rust](https://www.rust-lang.org/)
 - [Tauri CLI](https://tauri.app/v1/guides/getting-started/prerequisites/)
 - Windows OS (for resolution and keybind features)
+
+### 📦 Download
+
+> Download the latest Windows installer here:
+
+**[⬇️ Download Shortcut v0.1.0 (.exe)](https://github.com/kauancs2/shortnuts/releases/download/v0.1.0/shortcut_0.1.0_x64-setup.exe)**
+
+---
+
+## 📦 Technologies Used
+
+- ⚛️ React – Frontend UI
+- 🦀 Tauri – Native shell + Rust backend
+- 🧠 TypeScript – Type safety
+- 🧩 Low-level Windows APIs – For keyboard handling and resolution management
+
+---
+
+## 🔐 Permissions
+
+The app may require administrator rights to:
+- Modify system resolution
+- Register global keyboard shortcuts
+
+Make sure to **run as administrator** if you encounter permission issues.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🙌 Contributions
+
+Contributions are welcome! Feel free to submit issues or pull requests to improve the app.
