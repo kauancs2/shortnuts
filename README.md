@@ -19,7 +19,7 @@
 
 - [Node.js](https://nodejs.org/) (v18 or later)
 - [Rust](https://www.rust-lang.org/)
-- [Tauri CLI](https://tauri.app/v1/guides/getting-started/prerequisites/)
+- [Tauri CLI](https://v2.tauri.app/)
 - Windows OS (for resolution and keybind features)
 
 ### 📦 Download
