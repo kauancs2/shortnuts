@@ -1,6 +1,6 @@
 # 🔀 Shortcut App
 
-**Shortcut** is a lightweight Windows desktop application built with [Tauri](https://tauri.app) and [React](https://reactjs.org). It allows users to create and manage custom keyboard shortcuts to boost productivity and streamline daily tasks.
+**Shortnuts** is a lightweight Windows desktop application built with [Tauri](https://tauri.app) and [React](https://reactjs.org). It allows users to create and manage custom keyboard shortcuts to boost productivity and streamline daily tasks.
 
 ---
 
