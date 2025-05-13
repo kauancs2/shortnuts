@@ -13,15 +13,6 @@
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v18 or later)
-- [Rust](https://www.rust-lang.org/)
-- [Tauri CLI](https://v2.tauri.app/)
-- Windows OS (for resolution and keybind features)
-
 ### 📦 Download
 
 > Download the latest Windows installer here:
@@ -35,7 +26,7 @@
 - ⚛️ React – Frontend UI
 - 🦀 Tauri – Native shell + Rust backend
 - 🧠 TypeScript – Type safety
-- 🧩 Low-level Windows APIs – For keyboard handling and resolution management
+- 🧩 Windows APIs – For keyboard handling and resolution management
 
 ---
 
